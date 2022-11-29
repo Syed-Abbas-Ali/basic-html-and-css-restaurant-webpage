@@ -1,0 +1,248 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html { font-size: 10px;
+width: 100%;
+
+}
+
+/* reusable selectors*/
+.radius10px{
+    border-radius: 10px;
+}
+/* navbar */
+
+.nav{
+    width:140rem;
+    height:6.5rem;
+    background-color: rgb(75, 67, 67);
+    padding-top:2px;
+    padding: 1%;
+    
+}
+.nav div{
+display:inline-flex;
+position:relative;
+top:0px
+}
+.logo-cont{
+    width: 18rem;
+    height: 4.4rem;
+    background-color:antiquewhite;
+    }
+    .logo-cont h1{
+        font-size: 4rem;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .nav .menu{
+        width:50rem;
+        margin-left: 19rem;
+    }
+
+    .nav .menu table{
+        width:50rem;
+    }
+    .nav .menu table a{
+        color:aliceblue;
+        font-size: 25px;
+    }
+
+    /* sign-in-up btns */
+    .nav .sign-btns-con{
+        margin-left: 11rem;
+
+    }
+    .nav  table tr td button{
+        width:12rem;
+        height:4rem;
+        background-color: rgb(190, 3, 3);
+        border-radius: 8px;
+        margin-left: 3rem;
+    }
+
+    .nav  table tr td button a{
+        color:aliceblue;
+        font-size: 25px;
+    }
+
+
+
+    /* poster */
+
+    .post-cont{
+        width:140rem;
+        height:50rem;
+        background-color: black;
+        margin-top: .6rem;
+        padding-top: 5rem;
+
+        background-image:url("./img/pexels-igor-starkov-1237073.jpg") ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+     .text-cont .head{
+         color: aliceblue;
+         font-size: 5rem;
+         font-family: 'Courier New', Courier, monospace;
+         margin-left: 20%;
+         margin-bottom:1.4rem;
+     }
+
+     .text-cont p{
+         color:antiquewhite;
+         font-size: 2rem;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         margin-bottom: 4rem;
+     }
+     .order-btn{
+         width:15rem;
+         height:4rem;
+         margin-bottom: -10rem;
+       margin-left: 15rem;
+       border-radius: 10px;
+       background-color: rgb(246, 122, 122);
+     }
+
+     .order-btn a{
+         color:aliceblue;
+         font-size: x-large;
+         list-style: none;
+
+
+     }
+
+     /* .post-img{
+         width:4rem;
+
+     } */
+
+     /* catagory */
+
+     .Cate{
+         width:23.2rem;
+         margin:1%;
+        margin-left: 54rem;
+        font-size: 3rem;
+        border-style: double;
+        padding-left: 1%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    /* items-container */
+
+    .card-con{
+        width:45%;
+        height:47rem;
+        background-color: rgb(202, 186, 186);
+        margin: auto;
+        padding: 2%;
+        margin-top: 2%;
+
+        background-image:url("./img/pexels-igor-starkov-1237073.jpg") ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    
+.img-con{
+    width:80%;
+    height:40rem;
+    /* background-color: aquamarine; */
+    margin:auto;
+    }
+
+    .img-con img{
+        width: 100%;
+        height: 100%;
+       
+    }
+
+    .title{
+        width:80%;
+        margin:2% 36%;
+    }
+
+    .title h2{
+        font-size: 25px;
+    }
+
+
+
+
+    /* login form */
+    form{
+        width:370px;
+        margin:30px auto;
+        border-style: solid;
+        padding:30px 50px;
+        box-sizing: border-box;
+        background-color: #CCCCFF;
+        border-radius: 15px;
+
+    }
+    form div h1{
+        margin: 10px;
+        margin-left: 60px;
+        font-size: 25px;
+    }
+
+    form label{
+        display:block;
+        margin-top: 5%;
+        font-size: 18px;
+        font-weight: bold;
+
+    }
+
+    form input{
+        border:none;
+        
+        width:100%;
+        height:30px;
+        padding:10px;
+        border-radius: 10px;
+
+    }
+    
+
+    form div{
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+    form div label{
+        display: inline;
+        margin-top: 100px;
+    }
+
+    form div input{
+        width:17px;
+        margin-right: 15px;
+
+    }
+
+    form .sub-btn{
+        width:100px;
+        font-size: 23px;
+        font-weight: bold;
+        height: 45px;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #5bbcbc;
+        margin:10px 57px;
+        color:white;
+        border-radius: 10px;
+        border:none;
+        
+    }
+
+    form a{
+       margin-left: 90px;
+       font-size: 22px;
+       text-decoration: none;
+    }

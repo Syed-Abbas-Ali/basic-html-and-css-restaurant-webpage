@@ -1,0 +1,122 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./img/img2.jpg");
+    background-color: azure;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* common classes */
+.radius10px{
+    border-radius: 10px;
+}
+
+hr{
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+.main-container{
+background-color: rgb(255, 251, 251);
+}
+
+.nav{
+    width:100%;
+    height:65px;
+    background-color: rgb(75, 67, 67);
+    padding-top:2px;
+    
+}
+
+h1{
+color:antiquewhite;
+}
+
+
+
+/* poster */
+.post-con{
+    width:70;
+    height:50%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+.about{
+    margin-left: 40%;
+}
+.cate{
+    /* margin:auto; */
+    text-align: center;
+}
+
+/* heading */
+.heading{
+    width:200px;
+    height: 60px;
+    margin-left:43%;
+    text-align: center;
+}
+.heading h2{
+    font-size:40px;
+}
+
+/* cards */
+
+
+
+
+.card-con{
+    width:40%;
+    height:470px;
+    background-color: #e9d2d2;
+    margin-left: 10%;
+   
+    margin-top: 2%;
+    overflow: hidden;
+  
+}
+
+
+.img-con{
+    width:80%;
+    height:400px;
+    /* background-color: aquamarine; */
+    margin:auto;
+}
+
+.img-con img{
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+}
+
+/* text container and title */
+.title{
+    margin: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+/* heading2 */
+/* .heading2{
+    margin-top: 2%;
+     margin-left: 50%;
+} */
+
+
+/* con2 */
+/* 
+.card-con{ 
+    width:45%;
+    height:470px;
+    background-color: rgb(233, 210, 210);
+    /* margin: auto; */
+    /* float: right; */
+    /* margin-top: 2%; */
+
