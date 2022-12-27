@@ -11,6 +11,7 @@ width: 100%;
 /* reusable selectors*/
 .radius10px{
     border-radius: 10px;
+    display:flex;
 }
 /* navbar */
 
